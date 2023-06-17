@@ -1,0 +1,53 @@
+body {
+	background: black;
+}
+
+ff {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+img {
+	width: 50px;
+	height: 50px;
+}
+h1 {
+	width: 400px;
+	height: 50px;
+	margin: 0;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left {
+	padding: 5px;
+}
+.body-right {
+	padding: 5px;
+}
+
+.borde {
+	border-bottom: grey solid 1px;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	color: grey;
+}
+p {
+	font-size: 15px;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: rgb(150, 145, 145);
+	padding: 5px 5px 5px 5px;
+}
